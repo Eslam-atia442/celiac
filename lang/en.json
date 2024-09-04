@@ -1,0 +1,106 @@
+{
+    "''": "",
+    "": "",
+    "ar": "ar",
+    "en": "en",
+    "false": "",
+    "true": "",
+    "dispatcher": "Dispatcher",
+    "sidebar": {
+        "dashboard": "Dashboard",
+        "home": "Home",
+        "roles": "Roles & Permissions",
+        "users": "Users",
+        "setups": "Setups",
+        "companies":"companies"
+    },
+    "global": {
+        "name": "name",
+        "creation_date": "Creation Date",
+        "actions": "Actions",
+        "search": "Search",
+        "sign_in_message": "Sign in to Your Account",
+        "sign_in": "Sign in",
+        "forget_password": "Forgot password",
+        "403" : "you doesn't have permission to view this page",
+        "no_results" : "No results !",
+        "options": "Options"
+    },
+    "forms": {
+        "delete": "Delete",
+        "edit": "Edit",
+        "view": "View",
+        "save": "Save",
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "select": "Select",
+        "apply": "apply",
+        "inputs": {
+            "name": "name"
+        },
+        "change": "Change",
+        "inactive": "Inactive",
+        "permissions" : "permissions"
+    },
+    "pagination": {
+        "first_page": "First Page",
+        "last_page": "Last Page",
+        "prev": "Previous",
+        "next": "Next",
+        "total": "Total results",
+        "showed": "Show results from",
+        "to": "To"
+    },
+    "messages": {
+        "success": "Done Successfully",
+        "error": "Oops , Something went wrong !",
+        "success_create": "Created Successfully",
+        "success_update": "Updated Successfully",
+        "success_delete": "Deleted Successfully",
+        "sign_out": "Sign out",
+        "profile": "Profile",
+        "add_new": "Add New",
+        "edit": "Edit",
+        "name": "Name",
+        "image": "Image",
+        "email": "Email",
+        "status": "Status",
+        "date": "Date",
+        "name_ar": "Name (Arabic)",
+        "phone": "Phone",
+        "role": "Role",
+        "active": "Active",
+        "profile_photo": "Profile Photo",
+        "submit": "Submit",
+        "password": "Password",
+        "basic_info": "Basic Info",
+        "file_upload_text": "Drop file here or",
+        "click_to_upload": "click to upload",
+        "file_upload_img_hint": "files with a size less than %{size} MB",
+        "file_uploaded": "File uploaded successfully",
+        "file_deleted": "File deleted successfully",
+        "preview_not_available": "Preview not available",
+        "download": "Download",
+        "view": "View",
+        "description": "Description"
+    },
+    "notifications": {
+        "Hello": "Hello"
+    },
+    "validation": {
+        "Value is required": "Value is required",
+        "general" : "Oops, you missed some validations!"
+    },
+    "permissions": {
+    },
+    "placeholder": "Type ",
+    "responses": {
+        "can't delete": "Can not delete, model has related records"
+    },
+    "board_of_directors" : "Board of Directors",
+    "members_of_the_general_assembly": "Members of the General Assembly",
+    "members_of_the_organizational_structure": "Members of the organizational structure",
+    ":period months start from :date":":period months start from :date",
+    "members_of_committee": "members of committee",
+    "you_no_longer_have_login_permission_you_can_contact_the_administration": "You no longer have login permission, you can contact the administration"
+}

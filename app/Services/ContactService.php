@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Services;
+
+use App\Repositories\Contracts\BaseContract;
+use App\Repositories\Contracts\ContactContract;
+
+class ContactService extends BaseService
+{
+
+    protected BaseContract $repository;
+
+    public function __construct(ContactContract $repository)
+    {
+        $this->repository = $repository;
+        parent::__construct($repository);
+    }
+
+}

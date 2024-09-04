@@ -1,0 +1,42 @@
+{
+    "ar": "عربي",
+    "en": "English",
+    "dispatcher": "ديسباتشر",
+    "sidebar": {
+        "home": "الرئيسية",
+        "roles": "صلاحيات مديرين النظام"
+    },
+    "messages": {
+        "Dashboard": "الرئيسيه",
+        "add new role": "اضافة دور جديد"
+    },
+    "notifications": {
+        "Hello": "مرحباً"
+    },
+    "inputs": {
+        "name": "الإسم"
+    },
+    "validation": {
+        "Value is required": "الحقل مطلوب."
+    },
+    "permissions": {
+    },
+    "board_of_directors" : "أعضاء مجلس الإدارة",
+    "members_of_the_general_assembly": "أعضاء مجلس الجمعية العمومية",
+    "members_of_the_organizational_structure" : "أعضاء الهيكل التنظيمى لجمعية سيلياك",
+    ":period months start from :date": ":period شهرا بدء من :date",
+    "members_of_committee": "أعضاء اللجنة",
+    "True": "نعم",
+    "False": "لا",
+    "Committee tasks updated": "تم تعديل اللجان بنجاح",
+    "replied":"تم الرد",
+    "not_replied": "لم يتم الرد",
+    "you_no_longer_have_login_permission_you_can_contact_the_administration": "لم تعد تمتلك صلاحية تسجيل الدخول، يمكنك التواصل مع الإدارة",
+    "member": "عضو",
+    "guidance_manual": "الدليل الإسترشادي",
+    "translated_book": "الكتب المترجمة",
+    "scientific_research": "الابحاث العلمية",
+    "general": "عام",
+    "gluten_sensitivity": "حساسية الغلوتين"
+
+}

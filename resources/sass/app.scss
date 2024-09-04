@@ -1,0 +1,139 @@
+/* Make clicks pass-through */
+#nprogress {
+    pointer-events: none;
+}
+
+#nprogress .bar {
+    background: #2190d5;
+    position: fixed;
+    z-index: 1031;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 5px;
+}
+
+/* Fancy blur effect */
+#nprogress .peg {
+    display: block;
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 100%;
+    box-shadow: 0 0 10px #2190d5, 0 0 5px #2190d5;
+    opacity: 1.0;
+
+    -webkit-transform: rotate(3deg) translate(0px, -4px);
+    -ms-transform: rotate(3deg) translate(0px, -4px);
+    transform: rotate(3deg) translate(0px, -4px);
+}
+
+/* Remove these to get rid of the spinner */
+#nprogress .spinner {
+    display: block;
+    position: fixed;
+    z-index: 1031;
+    top: 15px;
+    right: 15px;
+}
+
+#nprogress .spinner-icon {
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+
+    border: solid 2px transparent;
+    border-top-color: #2190d5;
+    border-left-color: #2190d5;
+    border-radius: 50%;
+
+    -webkit-animation: nprogress-spinner 400ms linear infinite;
+    animation: nprogress-spinner 400ms linear infinite;
+}
+
+.nprogress-custom-parent {
+    overflow: hidden;
+    position: relative;
+}
+
+.nprogress-custom-parent #nprogress .spinner,
+.nprogress-custom-parent #nprogress .bar {
+    position: absolute;
+}
+
+@-webkit-keyframes nprogress-spinner {
+    0%   { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+@keyframes nprogress-spinner {
+    0%   { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.el-tabs__nav-scroll {
+    display: flex;
+    justify-content: center;
+    border-bottom: 0;
+    padding: 5px 0;
+}
+.el-tabs__active-bar, .el-tabs__nav-wrap:after {
+    display: none;
+}
+.el-tabs__item.is-active {
+    background-color: #2190d5;
+    color: #fff !important;
+    text-align: center;
+    padding: 0 15px !important;
+    border-radius: 30px !important;
+}
+.el-tabs__item:not(.is-active):hover {
+    color: #2190d5;
+}
+.el-tabs__nav {
+    box-shadow: 0px 0px 10px #0000001c;
+    border-radius: 45px;
+}
+.el-tabs__item {
+    border-radius: 43px;
+    padding: 0 20px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #2190d5;
+    background-color: #ffffff;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #2190d5;
+    outline: 0;
+    box-shadow: none;
+}
+
+.alert {
+    padding: 0.5rem 1rem;
+}
+
+.el-select{
+    display: block !important;
+}
+.el-input, .el-input__wrapper{
+    width:100% !important;
+}
+
+.bg-red-100{
+    background-color: #f8d7da;
+}
+
+.bg-red-200{
+    background-color: #f1aeb5;
+}
+
+.el-form-item__content {
+    display: contents !important;
+}
+
+.ck.ck-editor__editable_inline {
+    min-height: 250px !important;
+}
